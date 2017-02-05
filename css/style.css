@@ -646,21 +646,21 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { text-decoration:none; border-bottom:0 !important;}
 	
 
-A.class1 {color:#808080;}
+A.class1 {color:#E8E8E8;}
 A.class1[tabindex]:focus {
     color:#CF9C23;
     outline: none;
 }
 
-A.class2 {color:#808080;}
-A.class2[tabindex]:focus {
-    color:#281CFF;
-    outline: none;
-}
 
-A.class3 {color:#808080;}
+A.class3 {color:#C8C8C8;}
 A.class3[tabindex]:focus {
     color:#D20000;
+    outline: none;
+}
+A.class2 {color:#A0A0A0;}
+A.class2[tabindex]:focus {
+    color:#281CFF;
     outline: none;
 }
 
@@ -670,7 +670,7 @@ A.class4[tabindex]:focus {
     outline: none;
 }
 
-A.class5 {color:#808080;}
+A.class5 {color:#606060;}
 A.class5[tabindex]:focus {
     color:#FF35A9;
     outline: none;
@@ -686,6 +686,7 @@ a:active {
     text-decoration: underline;
 }
 a[tabindex]:focus {
+	text-decoration: underline;
     color:white;
     outline: none;
 }
@@ -695,7 +696,7 @@ a[tabindex]:focus {
 	h1{font-size:90px;line-height:74px;}
 	h2{font-size:80px;line-height:66px;}
 	h2.person-name{font-size:35px;line-height:35px; margin-bottom:30px;}
-	h3{font-size:70px;line-height:58px;}
+	h3{font-size:70px;line-height:70px;}
 	h4{font-size:60px;line-height:48px;}
 	h5{font-size:50px;line-height:40px;}
 	h6{font-size:40px;line-height:34px;}
